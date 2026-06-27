@@ -1,0 +1,31 @@
+Case,CF #,Is Seeded Error,Explanation
+1,1,False,This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and credit risk score reduced from 305.0 to 13.0.
+1,2,False,This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and credit risk score reduced from 305.0 to -12.0.
+1,3,False,This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and credit risk score reduced from 305.0 to -166.0.
+2,1,False,This application would NOT be flagged as fraud if: credit risk score reduced from 318.0 to -146.0.
+2,2,False,This application would NOT be flagged as fraud if: credit risk score reduced from 318.0 to -27.0.
+2,3,False,This application would NOT be flagged as fraud if: credit risk score reduced from 318.0 to -117.0.
+3,1,False,This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and credit risk score reduced from 292.0 to 52.0.
+3,2,False,"This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and proposed credit limit reduced from 2,000.00 to 333.50."
+3,3,False,This application would NOT be flagged as fraud if: payment type changed from 'AC' to 'unknown'; and credit risk score reduced from 292.0 to -36.0.
+4,1,False,This application would NOT be flagged as fraud if: credit risk score reduced from 323.0 to -20.0.
+4,2,False,"This application would NOT be flagged as fraud if: income reduced from 0.70 to 0.20; and proposed credit limit reduced from 1,500.00 to 400.20."
+4,3,False,This application would NOT be flagged as fraud if: credit risk score reduced from 323.0 to 52.0.
+5,1,False,"This application would NOT be flagged as fraud if: income reduced from 0.80 to 0.40; and proposed credit limit reduced from 2,000.00 to 915.30."
+5,2,False,"This application would NOT be flagged as fraud if: proposed credit limit reduced from 2,000.00 to 1,030.70."
+5,3,False,This application would NOT be flagged as fraud if: credit risk score reduced from 230.0 to -161.0.
+6,1,False,"This application would NOT be flagged as fraud if: proposed credit limit reduced from 2,000.00 to 734.60."
+6,2,False,"This application would NOT be flagged as fraud if: proposed credit limit reduced from 2,000.00 to 652.00."
+6,3,False,"This application would NOT be flagged as fraud if: income reduced from 0.90 to 0.40; and proposed credit limit reduced from 2,000.00 to 835.60."
+7,1,True,This application would NOT be flagged as fraud if: credit risk score reduced from 127.0 to 82.0.
+7,2,True,This application would NOT be flagged as fraud if: credit risk score reduced from 127.0 to -149.0.
+7,3,True,This application would NOT be flagged as fraud if: income reduced from 0.80 to 0.20; and proposed credit limit increased from 200.00 to 400.20.
+8,1,True,This application would NOT be flagged as fraud if: credit risk score reduced from 288.0 to 194.0.
+8,2,True,This application would NOT be flagged as fraud if: credit risk score reduced from 288.0 to -149.0.
+8,3,True,This application would NOT be flagged as fraud if: credit risk score reduced from 288.0 to 147.0.
+9,1,True,"This application would NOT be flagged as fraud if: proposed credit limit reduced from 1,500.00 to 734.60."
+9,2,True,This application would NOT be flagged as fraud if: credit risk score reduced from 302.0 to -149.0.
+9,3,True,"This application would NOT be flagged as fraud if: income reduced from 0.90 to 0.20; and proposed credit limit reduced from 1,500.00 to 400.20."
+10,1,True,"This application would NOT be flagged as fraud if: proposed credit limit reduced from 2,000.00 to 734.60."
+10,2,True,This application would NOT be flagged as fraud if: credit risk score reduced from 166.0 to -149.0.
+10,3,True,This application would NOT be flagged as fraud if: credit risk score increased from 166.0 to 370.0.
