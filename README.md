@@ -1,1 +1,0 @@
-# fraud-study-app
